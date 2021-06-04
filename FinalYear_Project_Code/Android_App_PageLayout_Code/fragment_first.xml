@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/greeting2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Real-Time Plant Data"
+        android:textStyle="italic"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:id="@+id/pHTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pH (TAG-PH001):"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/greeting2"
+        app:layout_constraintLeft_toLeftOf="@+id/greeting2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/pHid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/pHTitle"
+        app:layout_constraintLeft_toLeftOf="@+id/pHTitle"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:id="@+id/tempTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature (TAG-TP001):"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/pHid"
+        app:layout_constraintLeft_toLeftOf="@+id/greeting2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/Tempid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tempTitle"
+        app:layout_constraintLeft_toLeftOf="@+id/tempTitle"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:id="@+id/turbTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turbidity (TAG-TU001):"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/Tempid"
+        app:layout_constraintLeft_toLeftOf="@+id/greeting2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/TU001id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/turbTitle"
+        app:layout_constraintLeft_toLeftOf="@+id/turbTitle"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:id="@+id/FL001Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In - Flow (TAG-FL001):"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/TU001id"
+        app:layout_constraintLeft_toLeftOf="@+id/greeting2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/FL001id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/FL001Title"
+        app:layout_constraintLeft_toLeftOf="@+id/FL001Title"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:id="@+id/CL001Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chlorine Residual (TAG-CL001):"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/FL001id"
+        app:layout_constraintLeft_toLeftOf="@+id/greeting2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/CL001id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/CL001Title"
+        app:layout_constraintLeft_toLeftOf="@+id/CL001Title"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="10sp"
+        />
+    <TextView
+        android:id="@+id/LI001Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reservoir Level (TAG-LI001):"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/CL001id"
+        app:layout_constraintLeft_toLeftOf="@+id/greeting2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/LI001id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/LI001Title"
+        app:layout_constraintLeft_toLeftOf="@+id/LI001Title"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:id="@+id/CL002Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chlorine Validation (TAG-CL002):"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/LI001id"
+        app:layout_constraintLeft_toLeftOf="@+id/greeting2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/CL002id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/CL002Title"
+        app:layout_constraintLeft_toLeftOf="@+id/CL002Title"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:id="@+id/FL004Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Out - Flow (TAG-FL004):"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/CL002id"
+        app:layout_constraintLeft_toLeftOf="@+id/greeting2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/FL004id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/FL004Title"
+        app:layout_constraintLeft_toLeftOf="@+id/FL004Title"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="10sp"
+        />
+
+
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pHid"
+        app:layout_constraintVertical_bias="0.68" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
