@@ -1,6 +1,6 @@
 # Sligo_IT_Final_Project---- CHLORINE DISINFECTION SYSTEM USING DATA ANALYSIS AND MACHINE LEARNING CONTROL
 
-Hi there, this is my final year project for the Sligo Institute of technology.
+Hi, this is my final year project for the Sligo Institute of technology.
 
 The aim of this project was to build a prototype system to aid in the operation & decision making in the chlorine disinfection process used in water treatment facilities in Ireland, by leveraging Industrial Internet of Things (IIoT) principles, Data harvesting & Analytics, Cloud technology, Machine learning (ML) to provide suggested control set-point values, an android application to view process conditions & SMS warning system. With the hope of  creating more connected, transperant & efficient processes.
 
