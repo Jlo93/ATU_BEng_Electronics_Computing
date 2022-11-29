@@ -1,6 +1,6 @@
 /*****************************************************************************************************************************************************************************
 * Programmer: Jonathan Logue                                                                                                                                                 *
-* Date: 18/3/2021                                                                                                                                                            *
+* Date: 19/3/2021                                                                                                                                                            *
 * Project: Sligo IT Final Year project - CHLORINE DISINFECTION SYSTEM DATA ANALYSIS & CONTROL                                                                                *
 *                                                                                                                                                                            *
 * Code Description: Code to be run on an ardunio nano to enable SMS alarm functionality within the project using a sim800c module. The on-site Raspberry                     *
